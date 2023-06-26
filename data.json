@@ -210,5 +210,119 @@
   {
     "title": "Explain the concept of the 'this' keyword in JavaScript.",
     "description": "The 'this' keyword in JavaScript refers to the context in which a function is executed. It allows you to access the current object or determine the value of 'this' based on how the function is invoked. The value of 'this' is determined dynamically at runtime and can vary depending on the context of the function invocation."
-  }
-]
+  },
+  {
+    "title": "What is a closure in JavaScript?",
+    "description": "A closure is a function that has access to its own scope, the scope in which it was defined, and the scope of its outer function. It allows functions to access and manipulate variables from outer scopes even after the outer function has finished executing."
+  },
+  {
+    "title": "What is the purpose of the 'bind()' method in JavaScript?",
+    "description": "The 'bind()' method in JavaScript is used to create a new function that has a specific 'this' value and, optionally, initial arguments. It allows you to bind a function to a particular object and provide preset arguments."
+  },
+  {
+    "title": "What is a promise in JavaScript?",
+    "description": "A promise is an object in JavaScript that represents the eventual completion or failure of an asynchronous operation and its resulting value. It allows you to write asynchronous code in a more readable and manageable way, using methods like 'then()' and 'catch()' to handle success and failure cases."
+  },
+  {
+    "title": "What is the difference between 'undefined' and 'null' in JavaScript?",
+    "description": "'undefined' in JavaScript means a variable has been declared but has not been assigned a value. 'null', on the other hand, is an assignment value that represents no value or an empty value. It is assigned explicitly by the programmer."
+  },
+  {
+    "title": "What is the purpose of the 'arrow function' syntax in JavaScript?",
+    "description": "The arrow function syntax in JavaScript provides a concise way to write function expressions. It has a shorter syntax compared to traditional function expressions and inherits the 'this' value from its surrounding scope."
+  },
+  {
+    "title": "What are the different data types in JavaScript?",
+    "description": "JavaScript has several data types, including primitive types like 'string', 'number', 'boolean', 'null', 'undefined', and 'symbol'. It also has a complex type, 'object', which includes arrays, functions, and objects."
+  },
+  {
+    "title": "What is the purpose of the 'async' and 'await' keywords in JavaScript?",
+    "description": "The 'async' and 'await' keywords are used in JavaScript to handle asynchronous operations in a more synchronous-like manner. They allow you to write asynchronous code that looks and behaves more like synchronous code, improving readability and simplifying error handling."
+  },
+  {
+    "title": "What is the difference between '==' and '===' in JavaScript?",
+    "description": "In JavaScript, '==' is a loose equality operator that checks for equality after performing type coercion, while '===' is a strict equality operator that checks for equality without type coercion. '===' requires both the value and the type to be the same for equality."
+  },
+  {
+    "title": "What is the purpose of the 'querySelector()' method in JavaScript?",
+    "description": "The 'querySelector()' method in JavaScript is used to select and retrieve the first element that matches a specified CSS selector within the document or a specific element. It provides a powerful way to traverse and manipulate the DOM based on CSS selectors."
+  },
+  {
+    "title": "What is the purpose of the 'reduce()' method in JavaScript arrays?",
+    "description": "The 'reduce()' method in JavaScript arrays is used to reduce an array to a single value by applying a function to each element of the array, accumulating the result. It can be used for tasks such as summing the elements, finding the maximum value, or transforming the array into a different data structure."
+  },
+  {
+    "title": "What are the different ways to handle errors in JavaScript?",
+    "description": "In JavaScript, you can handle errors using try...catch blocks to catch and handle exceptions. Additionally, you can use error event handlers, such as 'onerror', to capture and handle runtime errors. For asynchronous operations, you can use error callbacks or 'catch()' method of promises."
+  },
+  {
+    "title": "What is the purpose of the 'typeof' operator in JavaScript?",
+    "description": "The 'typeof' operator in JavaScript is used to determine the data type of a value. It returns a string indicating the type, such as 'string', 'number', 'boolean', 'object', 'function', 'undefined', or 'symbol'. It can be useful for type checking or branching based on the data type."
+  },
+  {
+    "title": "What is the difference between 'let', 'const', and 'var' in JavaScript?",
+    "description": "'let', 'const', and 'var' are used to declare variables in JavaScript. 'let' and 'const' were introduced in ECMAScript 6, while 'var' is the older way of declaring variables. 'let' and 'const' have block scope, while 'var' has function scope. 'const' variables cannot be reassigned, while 'let' and 'var' can."
+  },
+  {
+    "title": "What is the purpose of the 'forEach()' method in JavaScript arrays?",
+    "description": "The 'forEach()' method in JavaScript arrays is used to iterate over the elements of an array and execute a callback function for each element. It provides a convenient way to perform operations on each element without the need for a separate loop."
+  },
+  {
+    "title": "What is a callback function in JavaScript?",
+    "description": "A callback function in JavaScript is a function that is passed as an argument to another function and is executed later in response to an event or when a certain condition is met. Callback functions are commonly used in asynchronous operations, event handling, and functional programming."
+  },
+  {
+    "title": "What is the purpose of the 'localStorage' object in JavaScript?",
+    "description": "The 'localStorage' object in JavaScript is used to store key-value pairs in the web browser's local storage. It provides a way to persistently store data on the user's device, even after the browser is closed or the computer is restarted."
+  },
+  {
+    "title": "What is the difference between 'var', 'let', and 'const' in JavaScript?",
+    "description": "'var', 'let', and 'const' are used to declare variables in JavaScript. 'var' is function-scoped, while 'let' and 'const' are block-scoped. 'var' allows redeclaration and hoisting, while 'let' and 'const' do not allow redeclaration and have block-level hoisting. 'let' variables can be reassigned, while 'const' variables are read-only."
+  },
+  {
+    "title": "What is the purpose of the 'map()' method in JavaScript arrays?",
+    "description": "The 'map()' method in JavaScript arrays is used to create a new array by applying a callback function to each element of the original array. It allows you to transform the elements of an array and generate a new array with the transformed values."
+  },
+  {
+    "title": "What is the difference between 'let' and 'const' in JavaScript?",
+    "description": "'let' and 'const' are used to declare variables in JavaScript. 'let' allows variables to be reassigned, while 'const' variables are read-only and cannot be reassigned. However, 'const' does not make objects or arrays immutable; it only prevents reassignment of the variable itself."
+  },
+  {
+    "title": "What is the purpose of the 'setInterval()' function in JavaScript?",
+    "description": "The 'setInterval()' function in JavaScript is used to repeatedly execute a specified function or code snippet at a fixed interval. It is commonly used for creating timers, animations, or periodic updates in web applications."
+  },
+  {
+    "title": "What is the difference between 'let' and 'var' in JavaScript?",
+    "description": "'let' and 'var' are used to declare variables in JavaScript. 'let' was introduced in ECMAScript 6 and has block scope, while 'var' has function scope. 'let' variables are hoisted to the top of their block, while 'var' variables are hoisted to the top of their enclosing function."
+  },
+  {
+    "title": "What is the purpose of the 'JSON.stringify()' method in JavaScript?",
+    "description": "The 'JSON.stringify()' method in JavaScript is used to convert a JavaScript object or value to a JSON string. It serializes the object or value, converting it into a string representation that can be transmitted or stored easily."
+  },
+  {
+    "title": "What is the difference between 'null' and 'undefined' in JavaScript?",
+    "description": "'null' in JavaScript is an assignment value that represents no value or an empty value. It is assigned explicitly by the programmer. 'undefined', on the other hand, means a variable has been declared but has not been assigned a value."
+  },
+  {
+    "title": "What is the purpose of the 'querySelectorAll()' method in JavaScript?",
+    "description": "The 'querySelectorAll()' method in JavaScript is used to select and retrieve a list of elements that match a specified CSS selector within the document or a specific element. It returns a static NodeList, which is a collection of elements that can be traversed and manipulated."
+  },
+  {
+    "title": "What is the purpose of the 'Object.keys()' method in JavaScript?",
+    "description": "The 'Object.keys()' method in JavaScript is used to retrieve an array of enumerable property names of an object. It returns an array containing the keys of the object's own properties, in the same order as a 'for...in' loop would."
+  },
+  {
+    "title": "What is the difference between '==', '===', and '!=' in JavaScript?",
+    "description": "'==', '===', and '!=' are comparison operators in JavaScript. '==' is a loose equality operator that performs type coercion, while '===' is a strict equality operator that does not perform type coercion. '!=' is the negation of '=='. They are used to compare values for equality or inequality."
+  },
+  {
+    "title": "What is the purpose of the 'document.getElementById()' method in JavaScript?",
+    "description": "The 'document.getElementById()' method in JavaScript is used to retrieve the first element in the document with a specified 'id' attribute. It provides a way to access and manipulate individual elements in the HTML document."
+  },
+  {
+    "title": "What is the purpose of the 'Array.isArray()' method in JavaScript?",
+    "description": "The 'Array.isArray()' method in JavaScript is used to determine whether a value is an array. It returns 'true' if the value is an array, and 'false' otherwise."
+  },
+  {
+    "title": "What is the purpose of the 'this' keyword in JavaScript?",
+    "description": "The 'this' keyword in JavaScript refers to the object that is currently executing a function or\r\n}\r\n]"}]
