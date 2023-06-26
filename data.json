@@ -1,214 +1,214 @@
 [
-  {
-    "title": "What is event delegation in JavaScript?",
-    "description": "Event delegation is a technique in JavaScript where you attach a single event listener to a parent element, instead of attaching multiple event listeners to individual child elements. This allows you to handle events efficiently, especially for dynamically added or removed elements."
-  },
-  {
-    "title": "Explain the concept of hoisting in JavaScript.",
-    "description": "Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope during the compilation phase, before the code is executed. This means that you can use variables and functions before they are actually declared in the code."
-  },
-  {
-    "title": "What is the purpose of the 'use strict' directive in JavaScript?",
-    "description": "The 'use strict' directive enables strict mode in JavaScript, which enforces stricter parsing and error handling rules. It helps to identify and prevent common coding mistakes, eliminates silent errors, and makes JavaScript code more reliable and maintainable."
-  },
-  {
-    "title": "What is the difference between '==' and '===' operators in JavaScript?",
-    "description": "The '==' operator in JavaScript performs type coercion, allowing loose equality comparison between two values. On the other hand, the '===' operator performs strict equality comparison without any type coercion, checking for both value and type equality."
-  },
-  {
-    "title": "What are arrow functions in JavaScript?",
-    "description": "Arrow functions are a concise syntax for writing function expressions in JavaScript. They provide a more compact and intuitive way to define anonymous functions, with a shorter syntax and lexical scoping of the 'this' keyword."
-  },
-  {
-    "title": "What is the purpose of the 'this' keyword in JavaScript?",
-    "description": "The 'this' keyword refers to the object that is currently executing the JavaScript code. Its value is determined by how a function is called. 'this' allows access to the object's properties and methods within the function."
-  },
-  {
-    "title": "What is the difference between 'let', 'const', and 'var' in JavaScript?",
-    "description": "'let', 'const', and 'var' are used to declare variables in JavaScript. 'let' and 'const' were introduced in ES6 (ECMAScript 2015) and have block-level scope, while 'var' has function-level scope. 'let' allows reassignment, 'const' is used for constants that can't be reassigned, and 'var' is the older way of declaring variables."
-  },
-  {
-    "title": "Explain the concept of callback functions in JavaScript.",
-    "description": "Callback functions are functions that are passed as arguments to other functions and are executed at a later time or in response to an event. They allow asynchronous programming and enable handling of events or executing code when a certain task or operation is completed."
-  },
-  {
-    "title": "What is the purpose of the 'async' and 'await' keywords in JavaScript?",
-    "description": "The 'async' and 'await' keywords are used in JavaScript to handle asynchronous operations and make async code look and behave more like synchronous code. 'async' is used to define an asynchronous function, while 'await' is used to pause the execution of an async function until a promise is resolved or rejected."
-  },
-  {
-    "title": "What is a JavaScript module?",
-    "description": "A JavaScript module is a self-contained piece of code that encapsulates functionality and can be imported or exported for use in other parts of a program. Modules allow for better organization, reuse, and maintainability of code in large-scale JavaScript applications."
-  },
-  {
-    "title": "Explain the concept of prototypal inheritance in JavaScript.",
-    "description": "Prototypal inheritance is a mechanism in JavaScript where objects can inherit properties and methods from other objects. Each object has an internal reference to its prototype, and if a property or method is not found in the object itself, it is automatically looked up in the prototype chain until it is found or until the top-level object is reached."
-  },
-  {
-    "title": "What are the different ways to define a function in JavaScript?",
-    "description": "In JavaScript, you can define functions using function declarations, function expressions, arrow functions, and methods within objects. Function declarations and arrow functions are hoisted, while function expressions are not."
-  },
-  {
-    "title": "What is the DOM (Document Object Model) in JavaScript?",
-    "description": "The DOM is a programming interface for HTML and XML documents. It represents the structure of a document as a tree-like model, where each element in the document is a node with properties and methods that allow manipulation and traversal of the document's content."
-  },
-  {
-    "title": "Explain the concept of event bubbling and event capturing in JavaScript.",
-    "description": "Event bubbling and event capturing are two mechanisms that describe the order in which events are handled in the DOM. In event bubbling, the event is first captured and handled by the innermost element and then propagated to its parent elements. In event capturing, the event is first captured by the outermost element and then propagated to the innermost element."
-  },
-  {
-    "title": "What is JSON (JavaScript Object Notation)?",
-    "description": "JSON is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate. It is based on JavaScript object syntax and is commonly used for transmitting data between a server and a web application, or between different parts of a JavaScript program."
-  },
-  {
-    "title": "What are the different ways to loop over an array in JavaScript?",
-    "description": "You can loop over an array in JavaScript using various techniques, including 'for' loop, 'for...of' loop, 'forEach()' method, and array methods such as 'map()', 'reduce()', 'filter()', etc. Each technique has its own advantages and use cases."
-  },
-  {
-    "title": "Explain the concept of promises in JavaScript.",
-    "description": "Promises are objects that represent the eventual completion or failure of an asynchronous operation in JavaScript. They provide a way to handle asynchronous code in a more structured manner, allowing chaining of operations, handling success and error cases, and avoiding callback hell."
-  },
-  {
-    "title": "What is the difference between a deep copy and a shallow copy in JavaScript?",
-    "description": "A deep copy creates an entirely new object or array and copies all of its values recursively, including nested objects or arrays. In contrast, a shallow copy creates a new object or array and copies only the references to the original values, so changes to nested objects or arrays will be reflected in both the original and the copied version."
-  },
-  {
-    "title": "What are the different types of error handling in JavaScript?",
-    "description": "In JavaScript, you can handle errors using try...catch statements to catch and handle specific types of errors or using a global error event handler, such as 'window.onerror', to handle uncaught errors. Additionally, you can use 'finally' block to execute code that should run regardless of whether an error occurs or not."
-  },
-  {
-    "title": "Explain the concept of AJAX in JavaScript.",
-    "description": "AJAX (Asynchronous JavaScript and XML) is a technique in JavaScript that allows you to make asynchronous HTTP requests to a server without reloading the entire web page. It enables you to fetch data, send data, and update parts of a web page dynamically, providing a more interactive user experience."
-  },
-  {
-    "title": "What is the purpose of the 'localStorage' object in JavaScript?",
-    "description": "The 'localStorage' object in JavaScript allows you to store key-value pairs in a web browser with no expiration date. The stored data persists even when the browser window is closed, providing a way to store and retrieve user preferences, settings, or other data locally."
-  },
-  {
-    "title": "What is a higher-order function in JavaScript?",
-    "description": "A higher-order function is a function that takes one or more functions as arguments, returns a function as its result, or both. It allows you to encapsulate and abstract common behavior, create reusable code, and build more flexible and modular programs."
-  },
-  {
-    "title": "Explain the concept of currying in JavaScript.",
-    "description": "Currying is a technique in functional programming where a function with multiple arguments is transformed into a sequence of functions, each taking a single argument. It allows you to create specialized versions of a function, partial application of arguments, and function composition."
-  },
-  {
-    "title": "What is the purpose of the 'map()' method in JavaScript arrays?",
-    "description": "The 'map()' method in JavaScript arrays is used to iterate over each element of an array and create a new array with the results of calling a provided function on each element. It allows you to transform or manipulate the original array without modifying it directly."
-  },
-  {
-    "title": "What are the different ways to handle asynchronous operations in JavaScript?",
-    "description": "In JavaScript, you can handle asynchronous operations using callbacks, promises, and async/await syntax. Callbacks are the traditional way of handling async code, promises provide a more structured approach, and async/await offers a more synchronous-looking syntax built on top of promises."
-  },
-  {
-    "title": "Explain the concept of memoization in JavaScript.",
-    "description": "Memoization is a technique in JavaScript where the results of a function call are cached based on its inputs, so that subsequent calls with the same inputs can be returned from the cache rather than recomputing the result. It helps to improve performance by avoiding redundant calculations."
-  },
-  {
-    "title": "What is the purpose of the 'fetch()' function in JavaScript?",
-    "description": "The 'fetch()' function in JavaScript is used to make HTTP requests to a server and retrieve resources asynchronously. It provides a more modern and flexible alternative to traditional XMLHttpRequest, allowing you to fetch data and handle responses using promises or async/await syntax."
-  },
-  {
-    "title": "What are the different ways to manipulate the DOM in JavaScript?",
-    "description": "In JavaScript, you can manipulate the DOM (Document Object Model) using methods and properties provided by the DOM API. Some common operations include accessing and modifying element attributes, adding or removing elements, traversing the DOM tree, and attaching event listeners."
-  },
-  {
-    "title": "Explain the concept of lexical scoping in JavaScript.",
-    "description": "Lexical scoping is a way of determining the scope of variables based on the placement of variable declarations in the source code. In JavaScript, variables are scoped to the nearest enclosing function or block, allowing inner functions to access variables defined in outer functions."
-  },
-  {
-    "title": "What is the purpose of the 'spread operator' in JavaScript?",
-    "description": "The 'spread operator' in JavaScript is denoted by the three dots (...) and is used to expand iterable objects (arrays, strings, etc.) into individual elements. It allows you to create new arrays, concatenate arrays, clone objects, and pass multiple arguments to functions more conveniently."
-  },
-  {
-    "title": "What are the different ways to handle errors in asynchronous JavaScript code?",
-    "description": "In asynchronous JavaScript code, you can handle errors using try...catch blocks around the code that may throw an error. Additionally, promises provide a 'catch()' method to handle errors within promise chains, and async/await syntax allows you to use try...catch blocks around async functions."
-  },
-  {
-    "title": "Explain the concept of the event loop in JavaScript.",
-    "description": "The event loop is a key mechanism in JavaScript that handles asynchronous operations and ensures that non-blocking operations (such as callbacks, promises, and timers) are executed in the correct order. It allows JavaScript to be single-threaded while handling concurrent events and maintaining responsiveness."
-  },
-  {
-    "title": "What is the purpose of the 'Object.keys()' method in JavaScript?",
-    "description": "The 'Object.keys()' method in JavaScript is used to retrieve an array of all enumerable property names (keys) of an object. It allows you to iterate over the properties of an object or perform operations on specific properties."
-  },
-  {
-    "title": "What are the different ways to handle form submissions in JavaScript?",
-    "description": "In JavaScript, you can handle form submissions by attaching event listeners to the form's 'submit' event, using the 'onsubmit' attribute in HTML, or using the 'addEventListener()' method. Additionally, you can prevent the default form submission behavior using the 'preventDefault()' method."
-  },
-  {
-    "title": "Explain the concept of the 'prototype' property in JavaScript.",
-    "description": "The 'prototype' property in JavaScript is an internal property of every object that allows objects to inherit properties and methods from other objects. It forms the basis of prototypal inheritance, where objects can delegate property lookups to their prototype objects."
-  },
-  {
-    "title": "What is the purpose of the 'setTimeout()' function in JavaScript?",
-    "description": "The 'setTimeout()' function in JavaScript is used to schedule the execution of a function or the evaluation of an expression after a specified delay (in milliseconds). It allows you to create time-based events, implement timeouts, and execute code asynchronously."
-  },
-  {
-    "title": "What are the different ways to handle asynchronous errors in JavaScript?",
-    "description": "In JavaScript, you can handle asynchronous errors using try...catch blocks around the asynchronous code, using the 'catch()' method of promises, or using error handling functions in async/await syntax. Additionally, you can handle uncaught errors using global error event handlers."
-  },
-  {
-    "title": "Explain the concept of the 'arguments' object in JavaScript.",
-    "description": "The 'arguments' object in JavaScript is an array-like object that contains the arguments passed to a function. It allows you to access the individual arguments within a function, even if they were not explicitly defined in the function's parameter list."
-  },
-  {
-    "title": "What is the purpose of the 'RegExp' object in JavaScript?",
-    "description": "The 'RegExp' object in JavaScript represents regular expressions, which are patterns used to match and manipulate strings. It provides methods for pattern matching, searching, replacing, and extracting parts of strings based on specific patterns."
-  },
-  {
-    "title": "What are the different ways to handle asynchronous iteration in JavaScript?",
-    "description": "In JavaScript, you can handle asynchronous iteration using 'for...of' loop with generators, using 'for await...of' loop with async iterators, or using higher-order functions such as 'map()', 'filter()', and 'reduce()' with async functions."
-  },
-  {
-    "title": "Explain the concept of the 'bind()' method in JavaScript.",
-    "description": "The 'bind()' method in JavaScript is used to create a new function that has a specific 'this' value and, optionally, initial arguments. It allows you to bind a function to a particular object and provide preset arguments, which can be useful for event handlers or callbacks."
-  },
-  {
-    "title": "What is the purpose of the 'try...catch' statement in JavaScript?",
-    "description": "The 'try...catch' statement in JavaScript is used to handle errors and exceptions. The 'try' block contains the code that may throw an error, and the 'catch' block is executed if an error is thrown, allowing you to handle the error gracefully."
-  },
-  {
-    "title": "What are the different ways to define and export modules in JavaScript?",
-    "description": "In JavaScript, you can define and export modules using the CommonJS syntax (require/export), the ES6 syntax (import/export), or using module bundlers and build tools such as webpack or Rollup."
-  },
-  {
-    "title": "Explain the concept of the event-driven programming paradigm in JavaScript.",
-    "description": "Event-driven programming is a programming paradigm where the flow of the program is determined by events such as user actions, sensor outputs, or messages from other parts of the system. In JavaScript, event-driven programming is commonly used in web development, where user interactions and browser events drive the execution of code."
-  },
-  {
-    "title": "What is the purpose of the 'Array.isArray()' method in JavaScript?",
-    "description": "The 'Array.isArray()' method in JavaScript is used to determine whether a value is an array. It returns 'true' if the value is an array, and 'false' otherwise. It provides a reliable way to check the type of a value, especially in cases where 'typeof' operator may not give accurate results for arrays."
-  },
-  {
-    "title": "What are the different ways to manipulate strings in JavaScript?",
-    "description": "In JavaScript, you can manipulate strings using various methods and operators. Some common operations include concatenation using the '+' operator or the 'concat()' method, extracting substrings using 'slice()', 'substring()', or 'substr()', converting case using 'toUpperCase()' or 'toLowerCase()', and searching or replacing substrings using 'indexOf()', 'lastIndexOf()', 'replace()', or regular expressions."
-  },
-  {
-    "title": "Explain the concept of the 'module.exports' object in Node.js.",
-    "description": "In Node.js, the 'module.exports' object is a special object that is used to define the public API of a module. It allows you to export functions, objects, or values from a module, making them accessible to other modules through the 'require()' function."
-  },
-  {
-    "title": "What is the purpose of the 'querySelector()' method in JavaScript?",
-    "description": "The 'querySelector()' method in JavaScript is used to select and retrieve the first element that matches a specified CSS selector within the document or a specific element. It provides a powerful way to traverse and manipulate the DOM based on CSS selectors."
-  },
-  {
-    "title": "What are the different ways to handle multiple asynchronous operations in JavaScript?",
-    "description": "In JavaScript, you can handle multiple asynchronous operations using techniques such as callbacks, promises, async/await, or libraries like async.js or RxJS. Each approach has its own syntax and features for managing asynchronous code and handling dependencies between operations."
-  },
-  {
-    "title": "Explain the concept of the 'call()' and 'apply()' methods in JavaScript.",
-    "description": "The 'call()' and 'apply()' methods in JavaScript are used to invoke a function with a specified 'this' value and a set of arguments. The 'call()' method accepts individual arguments, while the 'apply()' method accepts an array-like object as the arguments. They allow you to borrow methods from other objects, set the 'this' value explicitly, and pass arguments dynamically."
-  },
-  {
-    "title": "What is the purpose of the 'Promise.all()' method in JavaScript?",
-    "description": "The 'Promise.all()' method in JavaScript is used to combine multiple promises into a single promise that is fulfilled when all the individual promises are fulfilled, or rejected if any of the promises are rejected. It allows you to perform multiple asynchronous operations in parallel and handle the combined result."
-  },
-  {
-    "title": "What are the different ways to handle events in JavaScript?",
-    "description": "In JavaScript, you can handle events using event handlers, event listener functions, or by using methods such as 'addEventListener()' or 'on' properties. Event handlers are functions directly assigned to the event property, while event listeners are functions registered to handle specific events on elements."
-  },
-  {
-    "title": "Explain the concept of the 'this' keyword in JavaScript.",
-    "description": "The 'this' keyword in JavaScript refers to the context in which a function is executed. It allows you to access the current object or determine the value of 'this' based on how the function is invoked. The value of 'this' is determined dynamically at runtime and can vary depending on the context of the function invocation."
-  }
+  	{
+		title: "What is event delegation in JavaScript?",
+		description: "Event delegation is a technique in JavaScript where you attach a single event listener to a parent element, instead of attaching multiple event listeners to individual child elements. This allows you to handle events efficiently, especially for dynamically added or removed elements."
+	},
+	{
+		title: "Explain the concept of hoisting in JavaScript.",
+		description: "Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope during the compilation phase, before the code is executed. This means that you can use variables and functions before they are actually declared in the code."
+	},
+	{
+		title: "What is the purpose of the 'use strict' directive in JavaScript?",
+		description: "The 'use strict' directive enables strict mode in JavaScript, which enforces stricter parsing and error handling rules. It helps to identify and prevent common coding mistakes, eliminates silent errors, and makes JavaScript code more reliable and maintainable."
+	},
+	{
+		title: "What is the difference between '==' and '===' operators in JavaScript?",
+		description: "The '==' operator in JavaScript performs type coercion, allowing loose equality comparison between two values. On the other hand, the '===' operator performs strict equality comparison without any type coercion, checking for both value and type equality."
+	},
+	{
+		title: "What are arrow functions in JavaScript?",
+		description: "Arrow functions are a concise syntax for writing function expressions in JavaScript. They provide a more compact and intuitive way to define anonymous functions, with a shorter syntax and lexical scoping of the 'this' keyword."
+	},
+	{
+		title: "What is the purpose of the 'this' keyword in JavaScript?",
+		description: "The 'this' keyword refers to the object that is currently executing the JavaScript code. Its value is determined by how a function is called. 'this' allows access to the object's properties and methods within the function."
+	},
+	{
+		title: "What is the difference between 'let', 'const', and 'var' in JavaScript?",
+		description: "'let', 'const', and 'var' are used to declare variables in JavaScript. 'let' and 'const' were introduced in ES6 (ECMAScript 2015) and have block-level scope, while 'var' has function-level scope. 'let' allows reassignment, 'const' is used for constants that can't be reassigned, and 'var' is the older way of declaring variables."
+	},
+	{
+		title: "Explain the concept of callback functions in JavaScript.",
+		description: "Callback functions are functions that are passed as arguments to other functions and are executed at a later time or in response to an event. They allow asynchronous programming and enable handling of events or executing code when a certain task or operation is completed."
+	},
+	{
+		title: "What is the purpose of the 'async' and 'await' keywords in JavaScript?",
+		description: "The 'async' and 'await' keywords are used in JavaScript to handle asynchronous operations and make async code look and behave more like synchronous code. 'async' is used to define an asynchronous function, while 'await' is used to pause the execution of an async function until a promise is resolved or rejected."
+	},
+	{
+		title: "What is a JavaScript module?",
+		description: "A JavaScript module is a self-contained piece of code that encapsulates functionality and can be imported or exported for use in other parts of a program. Modules allow for better organization, reuse, and maintainability of code in large-scale JavaScript applications."
+	},
+	{
+		title: "Explain the concept of prototypal inheritance in JavaScript.",
+		description: "Prototypal inheritance is a mechanism in JavaScript where objects can inherit properties and methods from other objects. Each object has an internal reference to its prototype, and if a property or method is not found in the object itself, it is automatically looked up in the prototype chain until it is found or until the top-level object is reached."
+	},
+	{
+		title: "What are the different ways to define a function in JavaScript?",
+		description: "In JavaScript, you can define functions using function declarations, function expressions, arrow functions, and methods within objects. Function declarations and arrow functions are hoisted, while function expressions are not."
+	},
+	{
+		title: "What is the DOM (Document Object Model) in JavaScript?",
+		description: "The DOM is a programming interface for HTML and XML documents. It represents the structure of a document as a tree-like model, where each element in the document is a node with properties and methods that allow manipulation and traversal of the document's content."
+	},
+	{
+		title: "Explain the concept of event bubbling and event capturing in JavaScript.",
+		description: "Event bubbling and event capturing are two mechanisms that describe the order in which events are handled in the DOM. In event bubbling, the event is first captured and handled by the innermost element and then propagated to its parent elements. In event capturing, the event is first captured by the outermost element and then propagated to the innermost element."
+	},
+	{
+		title: "What is JSON (JavaScript Object Notation)?",
+		description: "JSON is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate. It is based on JavaScript object syntax and is commonly used for transmitting data between a server and a web application, or between different parts of a JavaScript program."
+	},
+	{
+		title: "What are the different ways to loop over an array in JavaScript?",
+		description: "You can loop over an array in JavaScript using various techniques, including 'for' loop, 'for...of' loop, 'forEach()' method, and array methods such as 'map()', 'reduce()', 'filter()', etc. Each technique has its own advantages and use cases."
+	},
+	{
+		title: "Explain the concept of promises in JavaScript.",
+		description: "Promises are objects that represent the eventual completion or failure of an asynchronous operation in JavaScript. They provide a way to handle asynchronous code in a more structured manner, allowing chaining of operations, handling success and error cases, and avoiding callback hell."
+	},
+	{
+		title: "What is the difference between a deep copy and a shallow copy in JavaScript?",
+		description: "A deep copy creates an entirely new object or array and copies all of its values recursively, including nested objects or arrays. In contrast, a shallow copy creates a new object or array and copies only the references to the original values, so changes to nested objects or arrays will be reflected in both the original and the copied version."
+	},
+	{
+		title: "What are the different types of error handling in JavaScript?",
+		description: "In JavaScript, you can handle errors using try...catch statements to catch and handle specific types of errors or using a global error event handler, such as 'window.onerror', to handle uncaught errors. Additionally, you can use 'finally' block to execute code that should run regardless of whether an error occurs or not."
+	},
+	{
+		title: "Explain the concept of AJAX in JavaScript.",
+		description: "AJAX (Asynchronous JavaScript and XML) is a technique in JavaScript that allows you to make asynchronous HTTP requests to a server without reloading the entire web page. It enables you to fetch data, send data, and update parts of a web page dynamically, providing a more interactive user experience."
+	},
+	{
+		title: "What is the purpose of the 'localStorage' object in JavaScript?",
+		description: "The 'localStorage' object in JavaScript allows you to store key-value pairs in a web browser with no expiration date. The stored data persists even when the browser window is closed, providing a way to store and retrieve user preferences, settings, or other data locally."
+	},
+	{
+		title: "What is a higher-order function in JavaScript?",
+		description: "A higher-order function is a function that takes one or more functions as arguments, returns a function as its result, or both. It allows you to encapsulate and abstract common behavior, create reusable code, and build more flexible and modular programs."
+	},
+	{
+		title: "Explain the concept of currying in JavaScript.",
+		description: "Currying is a technique in functional programming where a function with multiple arguments is transformed into a sequence of functions, each taking a single argument. It allows you to create specialized versions of a function, partial application of arguments, and function composition."
+	},
+	{
+		title: "What is the purpose of the 'map()' method in JavaScript arrays?",
+		description: "The 'map()' method in JavaScript arrays is used to iterate over each element of an array and create a new array with the results of calling a provided function on each element. It allows you to transform or manipulate the original array without modifying it directly."
+	},
+	{
+		title: "What are the different ways to handle asynchronous operations in JavaScript?",
+		description: "In JavaScript, you can handle asynchronous operations using callbacks, promises, and async/await syntax. Callbacks are the traditional way of handling async code, promises provide a more structured approach, and async/await offers a more synchronous-looking syntax built on top of promises."
+	},
+	{
+		title: "Explain the concept of memoization in JavaScript.",
+		description: "Memoization is a technique in JavaScript where the results of a function call are cached based on its inputs, so that subsequent calls with the same inputs can be returned from the cache rather than recomputing the result. It helps to improve performance by avoiding redundant calculations."
+	},
+	{
+		title: "What is the purpose of the 'fetch()' function in JavaScript?",
+		description: "The 'fetch()' function in JavaScript is used to make HTTP requests to a server and retrieve resources asynchronously. It provides a more modern and flexible alternative to traditional XMLHttpRequest, allowing you to fetch data and handle responses using promises or async/await syntax."
+	},
+	{
+		title: "What are the different ways to manipulate the DOM in JavaScript?",
+		description: "In JavaScript, you can manipulate the DOM (Document Object Model) using methods and properties provided by the DOM API. Some common operations include accessing and modifying element attributes, adding or removing elements, traversing the DOM tree, and attaching event listeners."
+	},
+	{
+		title: "Explain the concept of lexical scoping in JavaScript.",
+		description: "Lexical scoping is a way of determining the scope of variables based on the placement of variable declarations in the source code. In JavaScript, variables are scoped to the nearest enclosing function or block, allowing inner functions to access variables defined in outer functions."
+	},
+	{
+		title: "What is the purpose of the 'spread operator' in JavaScript?",
+		description: "The 'spread operator' in JavaScript is denoted by the three dots (...) and is used to expand iterable objects (arrays, strings, etc.) into individual elements. It allows you to create new arrays, concatenate arrays, clone objects, and pass multiple arguments to functions more conveniently."
+	},
+	{
+		title: "What are the different ways to handle errors in asynchronous JavaScript code?",
+		description: "In asynchronous JavaScript code, you can handle errors using try...catch blocks around the code that may throw an error. Additionally, promises provide a 'catch()' method to handle errors within promise chains, and async/await syntax allows you to use try...catch blocks around async functions."
+	},
+	{
+		title: "Explain the concept of the event loop in JavaScript.",
+		description: "The event loop is a key mechanism in JavaScript that handles asynchronous operations and ensures that non-blocking operations (such as callbacks, promises, and timers) are executed in the correct order. It allows JavaScript to be single-threaded while handling concurrent events and maintaining responsiveness."
+	},
+	{
+		title: "What is the purpose of the 'Object.keys()' method in JavaScript?",
+		description: "The 'Object.keys()' method in JavaScript is used to retrieve an array of all enumerable property names (keys) of an object. It allows you to iterate over the properties of an object or perform operations on specific properties."
+	},
+	{
+		title: "What are the different ways to handle form submissions in JavaScript?",
+		description: "In JavaScript, you can handle form submissions by attaching event listeners to the form's 'submit' event, using the 'onsubmit' attribute in HTML, or using the 'addEventListener()' method. Additionally, you can prevent the default form submission behavior using the 'preventDefault()' method."
+	},
+	{
+		title: "Explain the concept of the 'prototype' property in JavaScript.",
+		description: "The 'prototype' property in JavaScript is an internal property of every object that allows objects to inherit properties and methods from other objects. It forms the basis of prototypal inheritance, where objects can delegate property lookups to their prototype objects."
+	},
+	{
+		title: "What is the purpose of the 'setTimeout()' function in JavaScript?",
+		description: "The 'setTimeout()' function in JavaScript is used to schedule the execution of a function or the evaluation of an expression after a specified delay (in milliseconds). It allows you to create time-based events, implement timeouts, and execute code asynchronously."
+	},
+	{
+		title: "What are the different ways to handle asynchronous errors in JavaScript?",
+		description: "In JavaScript, you can handle asynchronous errors using try...catch blocks around the asynchronous code, using the 'catch()' method of promises, or using error handling functions in async/await syntax. Additionally, you can handle uncaught errors using global error event handlers."
+	},
+	{
+		title: "Explain the concept of the 'arguments' object in JavaScript.",
+		description: "The 'arguments' object in JavaScript is an array-like object that contains the arguments passed to a function. It allows you to access the individual arguments within a function, even if they were not explicitly defined in the function's parameter list."
+	},
+	{
+		title: "What is the purpose of the 'RegExp' object in JavaScript?",
+		description: "The 'RegExp' object in JavaScript represents regular expressions, which are patterns used to match and manipulate strings. It provides methods for pattern matching, searching, replacing, and extracting parts of strings based on specific patterns."
+	},
+	{
+		title: "What are the different ways to handle asynchronous iteration in JavaScript?",
+		description: "In JavaScript, you can handle asynchronous iteration using 'for...of' loop with generators, using 'for await...of' loop with async iterators, or using higher-order functions such as 'map()', 'filter()', and 'reduce()' with async functions."
+	},
+	{
+		title: "Explain the concept of the 'bind()' method in JavaScript.",
+		description: "The 'bind()' method in JavaScript is used to create a new function that has a specific 'this' value and, optionally, initial arguments. It allows you to bind a function to a particular object and provide preset arguments, which can be useful for event handlers or callbacks."
+	},
+	{
+		title: "What is the purpose of the 'try...catch' statement in JavaScript?",
+		description: "The 'try...catch' statement in JavaScript is used to handle errors and exceptions. The 'try' block contains the code that may throw an error, and the 'catch' block is executed if an error is thrown, allowing you to handle the error gracefully."
+	},
+	{
+		title: "What are the different ways to define and export modules in JavaScript?",
+		description: "In JavaScript, you can define and export modules using the CommonJS syntax (require/export), the ES6 syntax (import/export), or using module bundlers and build tools such as webpack or Rollup."
+	},
+	{
+		title: "Explain the concept of the event-driven programming paradigm in JavaScript.",
+		description: "Event-driven programming is a programming paradigm where the flow of the program is determined by events such as user actions, sensor outputs, or messages from other parts of the system. In JavaScript, event-driven programming is commonly used in web development, where user interactions and browser events drive the execution of code."
+	},
+	{
+		title: "What is the purpose of the 'Array.isArray()' method in JavaScript?",
+		description: "The 'Array.isArray()' method in JavaScript is used to determine whether a value is an array. It returns 'true' if the value is an array, and 'false' otherwise. It provides a reliable way to check the type of a value, especially in cases where 'typeof' operator may not give accurate results for arrays."
+	},
+	{
+		title: "What are the different ways to manipulate strings in JavaScript?",
+		description: "In JavaScript, you can manipulate strings using various methods and operators. Some common operations include concatenation using the '+' operator or the 'concat()' method, extracting substrings using 'slice()', 'substring()', or 'substr()', converting case using 'toUpperCase()' or 'toLowerCase()', and searching or replacing substrings using 'indexOf()', 'lastIndexOf()', 'replace()', or regular expressions."
+	},
+	{
+		title: "Explain the concept of the 'module.exports' object in Node.js.",
+		description: "In Node.js, the 'module.exports' object is a special object that is used to define the public API of a module. It allows you to export functions, objects, or values from a module, making them accessible to other modules through the 'require()' function."
+	},
+	{
+		title: "What is the purpose of the 'querySelector()' method in JavaScript?",
+		description: "The 'querySelector()' method in JavaScript is used to select and retrieve the first element that matches a specified CSS selector within the document or a specific element. It provides a powerful way to traverse and manipulate the DOM based on CSS selectors."
+	},
+	{
+		title: "What are the different ways to handle multiple asynchronous operations in JavaScript?",
+		description: "In JavaScript, you can handle multiple asynchronous operations using techniques such as callbacks, promises, async/await, or libraries like async.js or RxJS. Each approach has its own syntax and features for managing asynchronous code and handling dependencies between operations."
+	},
+	{
+		title: "Explain the concept of the 'call()' and 'apply()' methods in JavaScript.",
+		description: "The 'call()' and 'apply()' methods in JavaScript are used to invoke a function with a specified 'this' value and a set of arguments. The 'call()' method accepts individual arguments, while the 'apply()' method accepts an array-like object as the arguments. They allow you to borrow methods from other objects, set the 'this' value explicitly, and pass arguments dynamically."
+	},
+	{
+		title: "What is the purpose of the 'Promise.all()' method in JavaScript?",
+		description: "The 'Promise.all()' method in JavaScript is used to combine multiple promises into a single promise that is fulfilled when all the individual promises are fulfilled, or rejected if any of the promises are rejected. It allows you to perform multiple asynchronous operations in parallel and handle the combined result."
+	},
+	{
+		title: "What are the different ways to handle events in JavaScript?",
+		description: "In JavaScript, you can handle events using event handlers, event listener functions, or by using methods such as 'addEventListener()' or 'on' properties. Event handlers are functions directly assigned to the event property, while event listeners are functions registered to handle specific events on elements."
+	},
+	{
+		title: "Explain the concept of the 'this' keyword in JavaScript.",
+		description: "The 'this' keyword in JavaScript refers to the context in which a function is executed. It allows you to access the current object or determine the value of 'this' based on how the function is invoked. The value of 'this' is determined dynamically at runtime and can vary depending on the context of the function invocation."
+	},
 ]
