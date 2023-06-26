@@ -1,4 +1,4 @@
-Data = [
+[
   {
     "title": "What is event delegation in JavaScript?",
     "description": "Event delegation is a technique in JavaScript where you attach a single event listener to a parent element, instead of attaching multiple event listeners to individual child elements. This allows you to handle events efficiently, especially for dynamically added or removed elements."
@@ -210,5 +210,5 @@ Data = [
   {
     "title": "Explain the concept of the 'this' keyword in JavaScript.",
     "description": "The 'this' keyword in JavaScript refers to the context in which a function is executed. It allows you to access the current object or determine the value of 'this' based on how the function is invoked. The value of 'this' is determined dynamically at runtime and can vary depending on the context of the function invocation."
-  },
+  }
 ]
