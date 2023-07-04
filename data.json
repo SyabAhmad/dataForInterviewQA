@@ -325,4 +325,9 @@
   },
   {
     "title": "What is the purpose of the 'this' keyword in JavaScript?",
-    "description": "The 'this' keyword in JavaScript refers to the object that is currently executing a function or\r\n}\r\n]"}]
+    "description": "The 'this' keyword in JavaScript refers to the object that is currently executing a function or\r\n}\r\n]"}
+  {
+    "title": "FOR EDUCATIONAL PRPUSES",
+    "description": "Event delegation is a technique in JavaScript where you attach a single event listener to a parent element, instead of attaching multiple event listeners to individual child elements. This allows you to handle events efficiently, especially for dynamically added or removed elements."
+  },
+]
