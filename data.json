@@ -329,5 +329,5 @@
   {
     "title": "FOR EDUCATIONAL PRPUSES",
     "description": "Event delegation is a technique in JavaScript where you attach a single event listener to a parent element, instead of attaching multiple event listeners to individual child elements. This allows you to handle events efficiently, especially for dynamically added or removed elements."
-  },
+  }
 ]
